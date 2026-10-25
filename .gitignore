@@ -1,0 +1,12 @@
+# Local machine files
+.DS_Store
+
+# Credentials and local configuration
+.env
+.env.*
+!.env.example
+
+# Uncleared material should stay outside the checkout; these are extra guardrails.
+/private/
+/scratch/
+/runs/raw/
